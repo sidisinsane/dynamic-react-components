@@ -1,0 +1,13 @@
+{
+  "liveServer": {
+    "open": true,
+    "port": 8000,
+    "root": "public"
+  },
+  "serverPort": 8000,
+  "srcDir": "src",
+  "destDir": {
+    "development": "public",
+    "production": "dist"
+  }
+}

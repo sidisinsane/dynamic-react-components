@@ -1,0 +1,32 @@
+{
+  "content": {
+    "body": [
+      {
+        "_uid": "abc123",
+        "component": "header",
+        "components": [
+          {
+            "_uid": "abc123-1",
+            "component": "headline",
+            "props": {
+              "as": "h1",
+              "size": "h1",
+              "elementOf": "header",
+              "children": "Header Headline <samp>Component</samp>",
+              "html": "Header Headline <samp>Component</samp>"
+            }
+          },
+          {
+            "_uid": "abc123-2",
+            "component": "copy",
+            "props": {
+              "elementOf": "header",
+              "children": "<p>A <q>quick</q> brown fox jumps over the <q>lazy</q> dog.</p><p>Another <q>quick</q> brown fox jumps over the <q>lazy</q> dog.</p>",
+              "html": "<p>A <q>quick</q> brown fox jumps over the <q>lazy</q> dog.</p><p>Another <q>quick</q> brown fox jumps over the <q>lazy</q> dog.</p>"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

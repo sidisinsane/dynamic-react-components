@@ -1,0 +1,18 @@
+# Supported browsers configuration
+# @see https://github.com/browserslist/browserslist
+
+# Get a list of supported browsers by running:
+# npx browserslist
+
+[development]
+last 1 chrome version
+last 1 firefox version
+last 1 safari version
+
+[production]
+Firefox > 90
+Chrome > 88
+Edge > 89
+Safari > 14
+iOS > 14
+last 4 ChromeAndroid version

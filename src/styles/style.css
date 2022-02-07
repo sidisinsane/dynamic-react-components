@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: inherit;
+  background-color: hsla(0, 100%, 43%, 1);
+}
+
+.component {
+  position: relative;
+  padding: .25rem 0;
+}
+
+.message--unavailable {
+  background-color: hsla(0, 0%, 100%, 1);
+  color: hsla(0, 100%, 43%, 1);
+  display: inline-flex;
+  padding: .25rem 1rem;
+}
+
+samp {
+  font-size: inherit;
+}
