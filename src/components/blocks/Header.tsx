@@ -1,8 +1,8 @@
 import React from 'react';
 
 // import non-block components and types
-import Headline, { HeadlineProps } from '../typographic/Headline';
-import Copy, { CopyProps } from '../typographic/Copy';
+import { HeadlineProps } from '../typographic/Headline';
+import { CopyProps } from '../typographic/Copy';
 
 // import gcd-props
 import type { BlockComponentProps } from '../BlockComponentProps';
